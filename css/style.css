@@ -1,0 +1,219 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.teste {
+    width: 100%;
+    height: 5vh;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    border: 7px solid #000000;
+    color: #ee4eb6;
+    display: inline-block;
+    padding: 10px;
+    position: center;
+}
+
+
+
+#inner {
+    width: 50%;
+    margin: 5% auto;
+}
+
+.ixi {
+    width: 50%;
+    margin: 5% auto;
+
+
+}
+
+.tres {
+    width: 800px;
+    font: 25px Arial, Helvetica, sans-serif;
+    color: #000000;
+    border-top: 10px solid #ffa3df;
+    border-bottom: 10px solid #ffa3df;
+    padding-left: 5px;
+}
+
+div {
+    text-align: center;
+    background-blend-mode: screen;
+    background-image: url("../cssbasico/imagens/lulu.png")
+}
+
+body {
+    background-color: palevioletred
+}
+
+p {
+    font-weight: bold;
+    font-size: 14px;
+    font: italic bold; 
+
+}
+
+.quatro {
+    width: 300px;
+    font: 25px Arial, Helvetica, sans-serif;
+    color: #000000;
+    background: #ffbffd url(logo_im.gif) 5px 0 no-repeat;
+    border-top: 2px dotted #F58221;
+    border-right: 2px dotted #F58221;
+    border-bottom: 2px dotted #F58221;
+    border-left: 2px dotted #F58221;
+    padding-left: 35px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.kk {
+    width: 300px;
+    font: 25px Helvetica;
+    color: antiquewhite;
+    background: #F58221;
+    border-top: 2px dotted #ffbfff;
+    border-bottom: 2px dotted #ffbfff;
+    border-right: 2px dotted #ffbffd;
+    border-left: 2px dotted #ffbffd;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 35px
+}
+
+table.table tr {
+    cursor: pointer;
+}
+
+
+fieldset {
+    border: 1px solid lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    text-align: center;
+
+}
+
+
+#id_abluble {
+
+    width: 300px;
+    font: 25px Arial, Helvetica, sans-serif;
+    color: #000000;
+    background: #ffbffd url(logo_im.gif) 5px 0 no-repeat;
+    border-top: 2px dotted #F58221;
+    padding-left: 35px;
+
+}
+
+fieldset {
+    border: 1px solid lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    text-align: center;
+    background-color: #cccc;
+}
+
+legend {
+    background-color: #cccc;
+    color: black;
+    padding: 5px 10px;
+}
+
+
+fieldset {
+
+    text-align: center;
+
+}
+
+
+footer {
+
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+
+
+}
+
+menu {
+    position: center;
+    border-right: 1px solid #c0c0c0;
+
+}
+
+:root {
+
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-hover: rgb(118, 180, 145);
+    --cor-primaria: rgb(231, 241, 236);
+
+}
+
+.dp-menu ul {
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.dp-menu ul {
+
+    background-color: var(--cor-fundo);
+
+}
+
+.dp-menu ul li {
+
+    display: inline;
+    position: center;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+    position: center;
+
+}
+
+.dp-menu ul li a:hover {
+
+    background-color: var(--cor-hover);
+
+
+}
+
+.dp-menu ul ul {
+    display: none;
+    left: 0
+}
+
+.dp-menu ul li:hover ul {
+    display: block
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block
+}
